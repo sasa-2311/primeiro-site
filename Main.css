@@ -1,0 +1,31 @@
+body{
+    font-family:monospace;
+}
+ul{
+    font-family:helvetica;
+}
+li{
+    list-style:circle;
+}
+.list{
+    list-style:squase;
+}
+    -root{
+        --green:#00ff00;
+        --white:#ffffff;
+        --black:#000000;
+    }
+    .dark-theme{
+        --bg:var(--black);
+        --fontcolor:var(-green);
+    }
+    *{
+        color:var(--fontcolor);
+        font-family:helvetica;
+    }
+    body{
+        background:var(--bg);
+    }
+
+    
+        
